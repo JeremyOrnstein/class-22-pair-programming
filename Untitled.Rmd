@@ -1,0 +1,17 @@
+---
+title: "pair_programming"
+author: "Jeremy Ornstein"
+date: "10/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+download.file()
+```
+

@@ -9,9 +9,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(readxl)
+library(readr)
 ```
 
 ```{r}
-download.file()
+read_csv("raw-data/trains.csv", col_types = cols(
+                                                  obs = col_double(),
+                                                  citizen = col_logical(),
+                                                  age = col_double(),
+                                                  treatment = col_double(),
+                                                  attitude = col_double()
+                                                    ))
+
+
 ```
 
